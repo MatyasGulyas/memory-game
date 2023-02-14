@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🧠 Memory Game in JavaScript</title>
-
+    <title>Dalmi 30 éves!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/styles.css" />
     <script src="assets/game.js" defer></script>
 </head>
@@ -14,15 +14,16 @@
 <body>
     <div class="game">
         <div class="controls">
-            <button>Start</button>
+            <p><i class="fa fa-birthday-cake"></i> Dalmi 30 éves! <i class="fa fa-birthday-cake"></i></p>
+            <button onclick=location.reload()>Újra</button>
             <div class="stats">
-                <div class="moves">0 moves</div>
-                <div class="timer">time: 0 sec</div>
+                <div class="moves">0 lépés</div>
+                <div class="timer">Ido: 0 sec</div>
             </div>
         </div>
         <div class="board-container">
             <div class="board" data-column="5" data-row="3"></div>
-            <div class="win">You won!</div>
+            <div class="win">Vége!</div>
         </div>
     </div>
 </body>
