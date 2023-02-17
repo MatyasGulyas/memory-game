@@ -55,7 +55,7 @@ const generateGame = () => {
 
     const pics = []
 
-    for (let i = 1; i < 32; i++) {
+    for (let i = 1; i < 36; i++) {
         pics[i] = i; // Tömb feltöltése számokkal
     }
 
